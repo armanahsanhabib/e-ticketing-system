@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+  /* printStyles.css */
+  @media print {
+    body * {
+      visibility: none;
+    }
+  
+    .print-area,
+    .print-area * {
+      visibility: visible;
+    }
+  }
